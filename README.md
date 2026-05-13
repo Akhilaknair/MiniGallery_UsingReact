@@ -1,16 +1,77 @@
-# React + Vite
+# Image Gallery Pagination UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Concepts Practiced
 
-Currently, two official plugins are available:
+- React Components
+- Props
+- useState Hook
+- useEffect Hook
+- API Fetching with Axios
+- Array Mapping
+- Conditional Rendering
+- Pagination
+- JSX
+- Flexbox
+- Responsive Design
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fetches images dynamically from the Picsum API
+- Displays image cards with author names
+- Pagination with Next and Prev buttons
+- Loading state while fetching data
+- Responsive gallery layout
+- Clickable images that open in a new tab
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- Axios
+- Tailwind CSS
+- Lorem Picsum API
+
+---
+
+## Screenshot
+
+<p align="center">
+  <img src="./screenshots/preview.png" alt="Project Screenshot" width="900"/>
+</p>
+
+---
+
+## API Used
+
+```bash
+https://picsum.photos/v2/list?page=1&limit=15
+```
+---
+
+## Components Overview
+
+### App.jsx
+
+- Handles API requests using Axios
+- Manages pagination state
+- Displays image cards dynamically
+- Shows loading state while fetching data
+
+### Card.jsx
+
+- Receives image data using props
+- Displays image and author name
+- Redirects to image source on click
+
+---
+
+## Preview
+
+- Dynamic image gallery
+- Smooth pagination
+- Responsive UI
+- Modern dark theme
