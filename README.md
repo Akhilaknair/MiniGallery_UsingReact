@@ -40,7 +40,7 @@
 ## Screenshot
 
 <p align="center">
-  <img src="./screenshots/preview.png" alt="Project Screenshot" width="900"/>
+  <img src="screenshots/preview.png" alt="Project Screenshot" width="900"/>
 </p>
 
 ---
